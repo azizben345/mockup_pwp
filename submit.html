@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Complaint</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Submit Complaint</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submit.html">Submit Complaint</a></li>
+            <li><a href="status.html">Check Status</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Complaint Form</h2>
+            <form id="complaintForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="room">Room Number:</label>
+                <input type="text" id="room" name="room" required>
+                
+                <label for="description">Description of Damage:</label>
+                <textarea id="description" name="description" required></textarea>
+                
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hostel Management. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Status</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Check Complaint Status</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submit.html">Submit Complaint</a></li>
+            <li><a href="status.html">Check Status</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Status Checker</h2>
+            <form id="statusForm">
+                <label for="complaintId">Complaint ID:</label>
+                <input type="text" id="complaintId" name="complaintId" required>
+                
+                <button type="submit">Check Status</button>
+            </form>
+            <div id="statusResult"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hostel Management. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
